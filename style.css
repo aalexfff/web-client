@@ -54,6 +54,16 @@ label {
     font-size: 20px;
 }
 
+#confirm {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #7d39e3;
+    color: white;
+}
+
 
 /* popup window */
 
@@ -89,6 +99,7 @@ label {
     cursor: pointer;
     color: #333;
 }
+
 
 .alredy {
     color: rgb(45, 45, 45);
