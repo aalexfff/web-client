@@ -12,32 +12,78 @@
 
     <body>
         <div class="header">
-            <h1>Test</h1>
-            <button class="git">Git hub</button>
-            <button class="yandex">Yandex</button>
+            <h1>Тест на общие знания</h1>
+            <button id = "open_pop" class="login"></button>
         </div>
+
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup" class="close">&times;</span>
+                <h2>Выберите способ авторизации</h2>
+                <div>
+                    <button id = "git"></button>
+                    <button id = "yandex"></button>
+                    <button id = "log"></button>
+                </div>
+                <span class="alredy">Уже есть аккаунт ?</span>
+            </div>
+        </div>
+
+        <div id="popup-log" class="popup">
+            <div class="popup-content">
+                <span id="closePopuplog" class="close">&times;</span>
+                <h2>Авторизация</h2>
+                <form>
+                    <input type="name" placeholder="Введите имя" class="input-field"><br>
+                    <input type="surname" placeholder="Введите фамилию" class="input-field"><br>
+                    <input type="otch" placeholder="Введите отчество" class="input-field"><br>
+                    <input type="prof" placeholder="Введите должность" class="input-field"><br>
+                    <input type="mail" placeholder="Введите почту" class="input-field"><br>
+                    <input type="login" placeholder="Введите логин" class="input-field"><br>
+                    <input type="password" placeholder="Введите пароль" class="input-field"><br>
+                    <button type="submit" class="submit-btn">Войти</button>
+                </form>
+            </div>
+        </div>
+        
+      
 
         <div class="test">
             <div class="test_box1">
-                <h2>Вопрос 1 ? </h2>
+                <h2>Какой океан является самым большим на Земле?</h2>
                 <form>
-                    <input id="check" type="checkbox">
-                    <label for="ansv">Да</label>
+                    <input id="check1" type="checkbox">
+                    <label for="check1">Атлантический</label><br>
+                    <input id="check2" type="checkbox">
+                    <label for="check2">Индийский</label><br>
+                    <input id="check3" type="checkbox">
+                    <label for="check3">Северный Ледовитый</label><br>
+                    <input id="check4" type="checkbox">
+                    <label for="check4">Тихий</label><br>
+                    <input id="check5" type="checkbox">
+                    <label for="check5">Южный</label>
                 </form>
-                
+            </div>
+
+            <div class="test_box1">
+                <h2>Кто написал роман "Преступление и наказание"?</h2>
                 <form>
-                    <input id="check" type="checkbox">
-                    <label for="ansv">Наверно</label>
+                    <input id="check6" type="checkbox">
+                    <label for="check6">Лев Толстой</label><br>
+                    <input id="check7" type="checkbox">
+                    <label for="check7">Антон Чехов</label><br>
+                    <input id="check8" type="checkbox">
+                    <label for="check8">Фёдор Достоевский</label><br>
+                    <input id="check9" type="checkbox">
+                    <label for="check9">Николай Гоголь</label><br>
+                    <input id="check10" type="checkbox">
+                    <label for="check10">Иван Тургенев</label>
                 </form>
-
-                <form>
-                    <input id="check" type="checkbox">
-                    <label for="ansv">Нет</label>
-                </form>
-
-
             </div>
         </div>
+
+        <script src = "script.js"></script>
 
     </body>
 </html>
