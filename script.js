@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Закрытие при клике вне второго поп-апа
     popuplog.addEventListener('click', (e) => {
-        if (e.target === popupGit) {
+        if (e.target === popuplog
+           ) {
             popuplog.style.display = 'none';
         }
     });
